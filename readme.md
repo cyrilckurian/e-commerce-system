@@ -46,6 +46,10 @@ To get started with the E-commerce system, you'll need to follow these steps:
   }
   ```
 - Register a new user with the provided name, email, and password.
+<img width="1387" alt="Screenshot 2024-04-01 at 10 06 07 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/8123acf9-3e2f-4cde-b1ea-4dd57301b0e1">
+- If user already exists
+<img width="1391" alt="Screenshot 2024-04-01 at 10 06 29 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/8f1c6367-2e20-4b7d-9a96-f9cc59654a6c">
+
 
 ### Login as a User
 - **Endpoint**: `POST /api/auth/login`
@@ -57,6 +61,11 @@ To get started with the E-commerce system, you'll need to follow these steps:
   }
   ```
 - Receive a JWT token upon successful login.
+<img width="1391" alt="Screenshot 2024-04-01 at 10 09 35 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/29d3f281-dd46-4696-8f5d-80532824964c">
+
+- If unauthorized
+<img width="1387" alt="Screenshot 2024-04-01 at 10 08 41 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/0e3dcec0-8ae2-4715-8a0c-7267b7b3d1a4">
+
 
 ## Product Management
 
@@ -71,14 +80,22 @@ To get started with the E-commerce system, you'll need to follow these steps:
   }
   ```
 - Create a new product with the provided name, price, and description.
+<img width="1391" alt="Screenshot 2024-04-01 at 10 11 16 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/d285c0ad-a3d8-45d5-95c6-7ae809d6f5d5">
+
+<img width="1394" alt="Screenshot 2024-04-01 at 10 12 01 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/d4616fa6-f019-4b5d-8bc4-330cfae7036c">
+
 
 ### Get All Products
 - **Endpoint**: `GET /api/products`
 - Retrieve a list of all products available.
+<img width="1390" alt="Screenshot 2024-04-01 at 10 12 26 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/fb0168f4-251a-4e66-870b-719267966164">
+
 
 ### Get a Product by ID
 - **Endpoint**: `GET /api/products/:productId`
 - Retrieve a product by its unique ID.
+<img width="1391" alt="Screenshot 2024-04-01 at 10 13 19 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/6c266334-7f37-40bd-81f2-c6da1a79ed53">
+
 
 ### Update a Product
 - **Endpoint**: `PUT /api/products/:productId`
@@ -91,10 +108,14 @@ To get started with the E-commerce system, you'll need to follow these steps:
   }
   ```
 - Update an existing product with new details.
+<img width="1394" alt="Screenshot 2024-04-01 at 10 14 43 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/a65e5152-293e-4c2c-93ad-4fc2619220c5">
+
 
 ### Delete a Product
 - **Endpoint**: `DELETE /api/products/:productId`
 - Delete a product by its unique ID.
+<img width="1394" alt="Screenshot 2024-04-01 at 10 15 10 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/6b762d17-9408-4e42-b0ae-ed2a935bd2af">
+
 
 ## Order Management
 
@@ -119,6 +140,8 @@ To get started with the E-commerce system, you'll need to follow these steps:
   }
   ```
 - Create a new order with the provided user ID, products, total amount, and status.
+<img width="1393" alt="Screenshot 2024-04-01 at 10 20 03 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/801eb02f-624a-4aaa-8b57-4fe54ea7a6f6">
+
 
 ### Get All Orders
 - **Endpoint**: `GET /api/orders`
@@ -145,10 +168,14 @@ To get started with the E-commerce system, you'll need to follow these steps:
   }
   ```
 - Update an existing order with new details.
+<img width="1390" alt="Screenshot 2024-04-01 at 10 21 23 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/4a736c9a-b689-476c-978d-fdecc484768a">
+
 
 ### Delete an Order
 - **Endpoint**: `DELETE /api/orders/:orderId`
 - Delete an order by its unique ID.
+<img width="1392" alt="Screenshot 2024-04-01 at 10 21 52 PM" src="https://github.com/cyrilckurian/e-commerce-system/assets/74858827/856728b1-f65e-4a91-86cc-411a83ed97e0">
+
 
 ## Additional Notes
 
